@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu li{
+    padding: 15px;
+}
+.header{
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+.nav_bar{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.menu li a:hover{
+    color: #ec1d25;
+} 
+#carouselExampleControls{
+    position: absolute;
+    z-index: 1;
+}
+.banner{
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+.welcome{
+    font-family: Courgette;
+    font-size: 60px;
+    line-height: 1.1;
+    color: white;
+}
+.heading{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+.menu_button{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: #ec1d25;
+}
+.restaurant{
+    top: 0;
+}
